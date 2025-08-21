@@ -18,6 +18,7 @@ export default function BlogCard({ id, title, excerpt, category, date, image }: 
             src={image} 
             alt={title}
             className="w-full h-full object-cover"
+            onError={(e) => { e.currentTarget.src = '/vercel.svg'; }}
           />
         </div>
       )}

@@ -1,13 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Remix Icon Import */
 @import url('https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css');
 
 /* Pacifico Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* Custom Animations */
 @keyframes fadeIn {
@@ -88,11 +87,4 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-}
-
-.line-clamp-3 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
 }
